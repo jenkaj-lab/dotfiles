@@ -6,12 +6,11 @@
 # Text editor: nvim
 # Terminal: kitty
 # Browser: chromium
-sudo pacman -S --needed \
-	hyprland \
- 	xdg-desktop-portal-hyprland \ 
- 	nvim \ 
-	kitty \
- 	chromium
+sudo pacman -S --needed hyprland
+sudo pacman -S --needed xdg-desktop-portal-hyprland 
+sudo pacman -S --needed nvim 
+sudo pacman -S --needed	kitty
+sudo pacman -S --needed chromium
 
 # Overwrite existing dotfiles
 cp -f ~/dotfiles/.bashrc ~/.bashrc
