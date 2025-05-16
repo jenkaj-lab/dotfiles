@@ -13,8 +13,11 @@ packages=(
 sudo pacman -S --needed --noconfirm "${packages[@]}"
 
 # Overwrite existing dotfiles
-cp -f ~/dotfiles/.bashrc ~/.bashrc
-cp -rf ~/dotfiles/.config ~/.config
+rm -fr ~/.bashrc
+cp ~/dotfiles/.bashrc ~/.bashrc
+
+rm -fr ~/.config
+cp ~/dotfiles/.config ~/.config
 
 # Use the new configs
 source ~/.bashrc
