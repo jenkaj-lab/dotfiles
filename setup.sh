@@ -1,11 +1,17 @@
 #!/bin/bash
 
 # Download software/packages
+# Tiling wayland compositor: hyprland
+# Hyprland fix: xdg-desktop-portal-hyprland
+# Text editor: nvim
+# Terminal: kitty
+# Browser: chromium
 sudo pacman -S --needed \
-	hyprland \ # tiling Wayland compositor
- 	xdg-desktop-portal-hyprland \ # necessary to make hyprland work
- 	nvim \ # text editor
-	kitty # terminal
+	hyprland \
+ 	xdg-desktop-portal-hyprland \ 
+ 	nvim \ 
+	kitty \
+ 	chromium
 
 # Overwrite existing dotfiles
 cp -f ~/dotfiles/.bashrc ~/.bashrc
