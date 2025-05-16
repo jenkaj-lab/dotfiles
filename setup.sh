@@ -7,6 +7,7 @@ packages=(
   kitty  # terminal emulator
   chromium  # web browser
   nvim  # text editor
+  wofi # app launcher
 )
 
 sudo pacman -S --needed --noconfirm "${packages[@]}"
