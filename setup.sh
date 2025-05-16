@@ -2,7 +2,8 @@
 
 # Download software/packages
 sudo pacman -S --needed \
-	nvim \		# text editor
+	hyprland \	# tiling Wayland compositor
+ 	nvim \		# text editor
 	kitty \		# terminal
 
 # Overwrite existing dotfiles
