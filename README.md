@@ -1,22 +1,10 @@
 For hyprland documentation see https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 
-First time install
+Make the setup script executable
+run it
 
-Install these programs
-kitty
-nvim
-
-
-# NVIM
-
-First time launch? Run:
-```
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/opt/packer.nvim
-```
-
-Then in nvim use 
-```
-:source ~/.config/nvim/lua/alex/packer.lua
-:PackerSync
-```
+the script will: 
+- install all necessary software and packages
+- replace old dotfiles and dotdirectories
+- source the necessary files
+- configure nvim for first time usage
