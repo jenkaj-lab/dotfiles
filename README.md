@@ -3,7 +3,7 @@ I've tried different Operating Systems (OS), I've tried different distributions,
 
 Because I like a minimalistic feel, most of this setup is based around the terminal and hotkeys.
 
-# Includes
+## Includes
 Wayland display server in conjunction with Hyprland tiling window manager to create a custom Graphical User Interface (GUI) experience, combined with the following packages:
 
 - Kitty terminal emulator
@@ -12,7 +12,7 @@ Wayland display server in conjunction with Hyprland tiling window manager to cre
 
 For hyprland documentation see https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 
-# Usage
+## Usage
 Download the files into the ~/dotfiles directory. Create the dotfiles directory if it doesn't exist, but make sure it's in your user's home directory.
 
 Then just run the setup script.
