@@ -9,6 +9,7 @@ Wayland display server in conjunction with Hyprland tiling window manager to cre
 - Kitty terminal emulator
 - NVIM text editor
 - Waybar taskbar
+- Wofi app launcher 
 
 For hyprland documentation see https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 
