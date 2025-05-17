@@ -8,18 +8,14 @@ packages=(
   chromium  # web browser
   nvim  # text editor
   wofi # app launcher
+  yay # AUR helper
 )
 
 sudo pacman -S --needed --noconfirm "${packages[@]}"
 
-# Overwrite existing dotfiles
-rm ~/.bashrc
+# Replace existing dotfiles
 cp ~/dotfiles/.bashrc ~/.bashrc
-
-rm ~/.bash_profile
 cp ~/dotfiles/.bash_profile ~/.bash_profile
-
-rm -fr ~/.config
 cp -r ~/dotfiles/.config ~/.config
 
 # Use the new configs
