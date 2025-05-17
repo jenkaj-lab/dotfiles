@@ -16,6 +16,9 @@ sudo pacman -S --needed --noconfirm "${packages[@]}"
 rm ~/.bashrc
 cp ~/dotfiles/.bashrc ~/.bashrc
 
+rm ~/.bash_profile
+cp ~/dotfiles/.bash_profile ~/.bash_profile
+
 rm -fr ~/.config
 cp -r ~/dotfiles/.config ~/.config
 
