@@ -8,12 +8,18 @@ Wayland display server in conjunction with Hyprland tiling window manager to cre
 
 - Kitty terminal emulator
 - NVIM text editor
+- Waybar taskbar
 
 For hyprland documentation see https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 
-Make the setup script executable and run it
+# Usage
+Download the files into the ~/dotfiles directory. Create the dotfiles directory if it doesn't exist, but make sure it's in your user's home directory.
 
-the script will: 
+Then just run the setup script.
+
+I need to change this script to just append new data rather than remove everything, but this is good for my use case for now.
+
+The script will automatically:
 - install all necessary software and packages
 - replace old dotfiles and dotdirectories
 - source the necessary files
