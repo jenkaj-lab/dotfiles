@@ -13,10 +13,10 @@
         "hyprland/workspaces",
     ],
     "modules-center": [
-     //   "pulseaudio",
-        "network",
-        "cpu",
+        "pulseaudio",
         "battery",
+        "cpu",
+        "network",
     ],
     "modules-right": [
         "clock"
@@ -34,45 +34,31 @@
         "format": "{usage}% ",
         "tooltip": false
     },
-    "memory": {
-        "format": "{}% "
-    },
     "battery": {
         "states": {
             // "good": 95,
             "warning": 20,
             "critical": 10
         },
-        "format": "{icon} {capacity}%",
+        "format": "{capacity}% {icon}",
         "format-full": "{icom} {capacity}%",
-        "format-charging": "󰂄 {capacity}%",
-        "format-plugged": " {capacity}%",
+        "format-charging": "{capacity}% 󰂄",
+        "format-plugged": "{capacity}% ",
         "format-icons": ["󱊡","󱊢","󱊣"]
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {bandwidthDownBits}",
-        "format-ethernet": "  {bandwidthDownBits}",
+        "format-wifi": " {bandwidthDownBits} ",
+        "format-ethernet": "{bandwidthDownBits} ",
         "tooltip": false,
         "interval": 5,
         "format-disconnected": "Disconnected",
         "format-alt": "{ipaddr} ({essid})"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{volume}% {icon} {format_source}",
-        "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
-        "format-source": "{volume}% ",
-        "format-source-muted": "",
+        "format": "{volume}% {icon}",
+        "format-muted": "󰝟",
         "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"

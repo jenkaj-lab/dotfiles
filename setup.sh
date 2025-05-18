@@ -9,6 +9,8 @@ packages=(
   firefox
   nvim
   rofi
+  pulseaudio
+  pavucontrol
   # yay
 )
 sudo pacman -S --needed --noconfirm "${packages[@]}"
@@ -37,6 +39,8 @@ done
 
 # Use the new configs
 source ~/.bashrc
+systemctl --user enable pulseaudio
+systemctl --user start pulseaudio
 
 # Install the nvim packer
 packer_repo=https://github.com/wbthomason/packer.nvim
