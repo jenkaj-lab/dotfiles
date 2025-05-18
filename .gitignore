@@ -9,7 +9,7 @@
 # Only un-ignore these exact folders inside .config
 !.config
 !.config/nvim/**
-!.config/kitty/**
+!.config/foot/**
 !.config/waybar/**
 !.config/hypr/**
-!.config/wofi/**
+!.config/rofi/**

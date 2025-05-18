@@ -5,10 +5,10 @@ sudo echo "[*] Downloading software/packages"
 packages=(
   hyprland
   xdg-desktop-portal-hyprland
-  kitty
-  chromium
+  foot
+  firefox
   nvim
-  wofi
+  rofi
   # yay
 )
 sudo pacman -S --needed --noconfirm "${packages[@]}"

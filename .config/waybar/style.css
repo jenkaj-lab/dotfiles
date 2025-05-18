@@ -16,6 +16,19 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
+#workspaces button {
+  padding: 0 5px;
+  color: white;
+}
+
+#workspaces button.active {
+  color: #00ff88;
+}
+
+#workspaces button.urgent {
+  background-color: red;
+}
+
 /*
 window#waybar.empty {
     background-color: transparent;
