@@ -1,15 +1,27 @@
-# Ignore everything
+# Ignore everything by default
 *
 
-# Unignore individual files
+# Exclude all of the following from ignore list:
+
+# Dotfiles
 !.gitignore
 !.bashrc
 !.bash_profile
 
-# Only un-ignore these exact folders inside .config
+# Other files
+!README.md
+!install.sh
+
+# .config specific directories
 !.config
 !.config/nvim/**
 !.config/foot/**
 !.config/waybar/**
+!.config/waypaper/**
 !.config/hypr/**
 !.config/rofi/**
+!.config/wallpapers/**
+
+# Non dot-directories
+!bin/**
+!themes/**

@@ -6,7 +6,7 @@ require('packer').startup(function(use)
 
     use 'dart-lang/dart-vim-plugin'         -- dart formatting
     use 'wbthomason/packer.nvim'            -- plugin manager
-    use 'catppuccin/nvim'                   -- colour theme
+    use 'shaunsingh/nord.nvim'              -- colour theme
     use 'jiangmiao/auto-pairs'              -- auto-close brackets
     use 'nvim-lualine/lualine.nvim'         -- fancy status bar
     use 'sheerun/vim-polyglot'              -- synax highlighting

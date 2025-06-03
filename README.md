@@ -27,3 +27,7 @@ The script will automatically:
 - configure nvim for first time usage
 
 If you'd prefer you can just skip this script and manually move or copy all the files.
+
+# Instructions
+Make sure to change into the newly downloaded dotfiles directory before running the intall.sh script  
+It works based off the current directory.

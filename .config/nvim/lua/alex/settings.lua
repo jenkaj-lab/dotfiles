@@ -4,7 +4,7 @@ vim.o.number = true            	    -- Enable absolute line numbers
 vim.o.relativenumber = true    	    -- Enable relative line numbers
 vim.o.cursorline = true        	    -- Highlight the current line
 vim.opt.wrap = false                -- Turn off text wrapping
-vim.cmd.colorscheme("catppuccin")   -- Use listed colour scheme
+--vim.cmd.colorscheme("catppuccin")   -- Use listed colour scheme
 vim.opt.clipboard = "unnamedplus"   -- Use system clipboard
 
 -- Tab Settings
