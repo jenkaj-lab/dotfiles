@@ -23,5 +23,5 @@
 !.config/wallpapers/**
 
 # Non dot-directories
-!bin/**
-!themes/**
+!.bin/**
+!.themes/**
